@@ -1,0 +1,132 @@
+Day_1
+untuk membuat heading dan sub head menarik https://www.markdownguide.org/cheat-sheet/
+
+Pengertian Data Sciene
+Mempelajari beberapa hal dari proses preparation, analisis, visualisasi 
+ilmu matematika, statsistik, matrix, vector,
+machine learning untuk membangun prediksi 
+contoh harga rumah, saham
+An integrated development environment (IDE) is a software application that provides comprehensive facilities to computer programmers for software development.
+anaconda environment adalah bisa running suatu program/package yang berbeda 
+Learning_Journal_Dede_R
+
+untuk mencari package sudah ada atau belum gunakan 
+conda search 
+"beautifulsoup4" akan digunakan nanti
+untuk install 
+conda install
+untuk list 
+conda list 
+
+untuk running #contoh "jupyter notebook"
+jika di jupyter notebook sudah buat kodingan untuk savenya bisa gunakan .py/.ipynb
+.py untuk buat aplikasi 
+.ipynb untuk analisis/report runing satu persatu
+cara penulisan jupyter notebook
+#untuk heading pakai markdown
+## untuk sub bab
+string itu teks biasa
+print untuk mencetak 
+
+cmd gunakan pip untuk install package
+vscode jupyter notebook dan colab sama saja
+
+untuk comment bisa menggunakan #|'''|ctrl+/ (untuk yang kodingan panjang)
+type data python dasar
+text 		= str (string) menggunakan '/"
+#cek type data : print(type("---")) 
+\
+\n = untuk new line
+bool untuk mengecek kondisi true or false digunakan conditional
+casting adalah saat ingin ngeset suatu type data kedalam type data lain, jika nanti masuk ke hitungan ada data dalam tabel bentuk str, ingin dikalkulasi jika tidak di ubah tidak akan bisa
+round untuk menjadikan bilangan bulat
+
+numeric 	= int, float, complex
+1. int|interger adalah bilangan desimal tidak pakai koma
+2. float adalah bilangan koma
+3. complex adalah
+sequences 	= list, tuple, range 
+mapping 	= dict 
+set 		=
+Variabel nama jangan mulai dari angka diawal
+fungsi untuk menyimpan data 
+
+== untuk memastikan apakah bilangan tersebut sama
+= untuk memasukan nilai
+append = menggabungkan kedalam list
+
+list bisa langsung di ubah (append, remove, nambah)
+kalau tuple tidak bisa langsung di ubah (unchangeable) 
+set = tidak ada index
+remove jika pakai discard tidak akan muncul peringatan eror jika memang data tersebut tidak ada
+
+Day_2 Git and Githhub
+public untuk umum 
+private untuk rahasia
+github akan digunakan spt drive untuk menyimpan kode
+tips membuat folder jangan menggunakan (space/spasi)
+kalau bentuk icon masih bulat berarti belum tersimpan tinggal (ctrl+s)
+cd untuk type coment di cmd
+step untuk menambahkan di revo baru 
+1. git init
+
+
+Day_3
+Day_4 Pandas
+80% Ds digunakan untuk membersihkan data, untuk membuat modul hanya sebagaian kecil
+pandas memliki 2 data manipulasi yaitu 
+series (single kolom/frame)
+data frama (kolom dan baris)
+pd.Series
+revenues.values untuk mendapatkan list valuesnya disebuah series (akan muncul revenues untuk menentukan induknya)
+revenues.index akan mendapatkan index,
+
+# List : '[]' '[1,2,3,4,5]' 'bisa diubah isi elementnya'
+# Tuple : '()' (1,2,3,4,5) 'tidak bisa diubah isi elementnya' | pemanggilan fungsi
+# Dict : '{}' {key:value}
+NaN (not a number)
+axis ada 2 yaitu indeks/baris dan kolom
+
+untuk mengkases list  dari depan dimulai [0] dari belakang [-1] 
+var(start: stop: step) list: [:]
+
+Using .loc and .iloc untuk mengakses element yang sulit diakses
+
+You can use the code blocks above to distinguish between two Series behaviors:
+You can use .iloc on a Series similar to using [] on a list.
+You can use .loc on a Series similar to using [] on a dictionary.
+sort : false agar tidak lama|berat
+agar menampilkan keseluruhan
+pd.set_option('display.max_columns', None)
+
+referensi pandas https://pandas.pydata.org/
+left on = kolom yang akan dijadikan acuan
+copy untuk mengkopi data agar tidak berubah
+untuk menampilkan visualisasi tambahkan 
+import natplotlib.pyplot as plt
+
+Day_5 
+10:16 21/01/2022
+kisi kisi untuk GC
+Sesi EE 
+Topiknya growth mindset
+mindset adalah sesuatu yang menggambarkan diri sendiri
+mindset di awali dari pikiran
+mindset terbagi menjadi 2
+growth mindset dan fixed mindset
+fixed mindset disebabkan karena kegagalan, takut ancaman
+growth mindset ingin merubah menjadi lebih baik/keluar zona nyaman
+cara membangun growth mindset
+first
+fix mindset : dalam b.inggris kalau dalam berbicara dipublik/dialog, dalam kondisi yang sudah nyaman, pelajaran kimia
+second 
+stay with fix mindset 
+change your fixed mindset to growth mindset 
+third 
+think and write down your growth mindset to change your fixed mindset 
+(lo pasti bisa kalau lu mencoba)
+(pemula wajar salah, egp)
+
+
+
+
